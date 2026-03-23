@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personality Quiz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+  <h1 class="text-center mb-4">What Type of Developer Are You?</h1>
+
+  <!-- Question 1 -->
+  <div class="question-block mb-4">
+    <h4>1. What do you enjoy most?</h4>
+    <button class="btn btn-outline-primary answer-btn" data-points="3">Designing interfaces</button>
+    <button class="btn btn-outline-primary answer-btn" data-points="1">Solving logic problems</button>
+  </div>
+
+  <!-- Question 2 -->
+  <div class="question-block mb-4">
+    <h4>2. Favorite tool?</h4>
+    <button class="btn btn-outline-primary answer-btn" data-points="3">Figma</button>
+    <button class="btn btn-outline-primary answer-btn" data-points="1">VS Code</button>
+  </div>
+
+  <!-- Question 3 -->
+  <div class="question-block mb-4">
+    <h4>3. What sounds more fun?</h4>
+    <button class="btn btn-outline-primary answer-btn" data-points="3">Building UI</button>
+    <button class="btn btn-outline-primary answer-btn" data-points="1">Working with data</button>
+  </div>
+
+  <!-- Question 4 -->
+  <div class="question-block mb-4">
+    <h4>4. What do you prefer?</h4>
+    <button class="btn btn-outline-primary answer-btn" data-points="3">Creativity</button>
+    <button class="btn btn-outline-primary answer-btn" data-points="1">Structure</button>
+  </div>
+
+  <button id="submit-btn" class="btn btn-success">Get Results</button>
+
+  <div id="result-container" class="mt-4 fs-4"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
